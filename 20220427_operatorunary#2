@@ -1,0 +1,29 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(){
+float a = sqrt(16); //menghitung akar kuadrat
+
+float b = cbrt(27); //menghitung akar kubik
+
+float c = pow(4.334,2.231); //menghitung pangkat
+
+float d = sin(5); //menghitung pangkat
+
+float e = cos(1); //menghitung pangkat
+
+float f = tan(2); //menghitung pangkat
+
+float g = round (d);
+
+cout<<a<<endl;
+cout<<b<<endl;
+cout<<c<<endl;
+cout<<d<<endl;
+cout<<e<<endl;
+cout<<f<<endl;
+cout<<g<<endl;
+
+    return 0;
+}
