@@ -2,7 +2,7 @@
 
 using namespace std;
 int main(){
-    int angka[9] = { 
+    int angka[] = { 
     123,
     445,
     6564,
