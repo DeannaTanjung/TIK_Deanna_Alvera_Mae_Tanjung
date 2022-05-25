@@ -1,12 +1,30 @@
 #include <iostream>
 using namespace std;
-int main (){
-    string namaSiswa [2] = {
-        "NN"
-        "NS"
-    };
-    cout<<"NN" [80];
-    cout<<"NS" [80];
+
+int main(){
+   char nama [100] [100];
+   float nilai [100];
+   float tugas [100], pts [100], pas [100];
+   float rata [100];
+   float no;
+   
+   cout<<"Masukkan Jumlah Siswa = ";
+   cin>>no;
+   for (int i=0;i<no;i++) {
+       cout<<"Masukkan Nama = ";
+       cin>>nama[i];
+       cout<<"Nilai Tugas = ";
+       cin>>tugas[i];
+       cout<<"Nilai PTS = ";
+       cin>>pts[i];
+       cout<<"Nilai PAS = ";
+       cin>>pas[i];
+       rata[i] = (tugas[i]+pts[i]+pas[i])/3;
+       cout<<"Nilai akhir = "<<rata[i];
+       cout<<"\n"<<endl;
+       
+   } 
+   return 0;
     
-    return 0;
+
 }
