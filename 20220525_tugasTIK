@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main (){
+    string namaSiswa [2] = {
+        "NN"
+        "NS"
+    };
+    cout<<"NN" [80];
+    cout<<"NS" [80];
+    
+    return 0;
+}
